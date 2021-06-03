@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Berat Ideal App</string>
+    <string name="app_title">Hitung Berat Ideal</string>
+    <string name="body_weight">Berat Badan</string>
+    <string name="body_height">Tinggi Badan</string>
+    <string name="button_process">Hitung</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="man">Laki-laki</string>
+    <string name="woman">Perempuan</string>
+    <string name="bmi">Body Mass Index</string>
+    <string name="category">Kategori</string>
+
 </resources>

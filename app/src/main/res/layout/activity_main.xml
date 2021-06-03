@@ -33,7 +33,8 @@
         <EditText
             android:id="@+id/edit_text_weight"
             android:layout_width="240dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/kg"/>
 
     </LinearLayout>
 
@@ -50,7 +51,8 @@
         <EditText
             android:id="@+id/edit_text_height"
             android:layout_width="240dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/cm"/>
 
     </LinearLayout>
 
@@ -63,19 +65,26 @@
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@string/gender"/>
+            android:text="@string/gender"
+            android:layout_marginTop="13dp"/>
 
-        <RadioButton
-            android:id="@+id/radio_man"
-            android:layout_width="120dp"
+        <RadioGroup
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/man"/>
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio_man"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/man"/>
 
-        <RadioButton
-            android:id="@+id/radio_woman"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/woman"/>
+            <RadioButton
+                android:id="@+id/radio_woman"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/woman"/>
+
+        </RadioGroup>
 
     </LinearLayout>
 

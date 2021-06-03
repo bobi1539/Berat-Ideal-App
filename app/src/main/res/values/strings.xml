@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Berat Ideal App</string>
+    <string name="app_name">Berat Ideal App Bobi Ahmad Rival</string>
     <string name="app_title">Hitung Berat Ideal</string>
     <string name="body_weight">Berat Badan</string>
     <string name="body_height">Tinggi Badan</string>
@@ -9,5 +9,7 @@
     <string name="woman">Perempuan</string>
     <string name="bmi">Body Mass Index</string>
     <string name="category">Kategori</string>
+    <string name="kg">Kg..</string>
+    <string name="cm">Cm..</string>
 
 </resources>
